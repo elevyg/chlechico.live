@@ -8,7 +8,7 @@
     "noEmit": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "noUnusedLocals": false,
+    "noUnusedLocals": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
@@ -19,14 +19,14 @@
     "noImplicitThis": true,
     "alwaysStrict": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"]
+    }
   },
+  "include": ["./src/**/*", "./*"],
   "exclude": ["node_modules", "public", ".cache"]
 }
-
-
-
-
