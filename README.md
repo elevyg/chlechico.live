@@ -1,3 +1,2 @@
-# Website for Huerto Jeinimeni 🪴
+# Live in Chile Chico 
 
-## Located in Chile Chico 🇨🇱, Chilean Patagonia

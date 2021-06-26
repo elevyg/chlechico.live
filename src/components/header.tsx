@@ -9,29 +9,7 @@ import { createStyles } from "../types/emotion-styles";
 
 const Header = () => (
   <header css={styles.container}>
-    <div css={styles.navLinkContainerLeft}>
-      <NavLink to="#about" title="Nosotros" />
-      <NavLink to="#orchard" title="Huerta" />
-    </div>
-    <div css={styles.navLinkContainerRight}>
-      <NavLink to="#find-us" title="Ubicación" />
-      <NavLink to="#volunteers" title="Voluntariados" />
-    </div>
-    <div style={styles.logoContainer}>
-      <Link
-        to="/"
-        css={{
-          textDecoration: `none`,
-        }}
-      >
-        <StaticImage
-          src="../assets/logo.png"
-          width={250}
-          alt="Huerto Jeinimeni"
-          quality={100}
-        />
-      </Link>
-    </div>
+   
   </header>
 );
 
